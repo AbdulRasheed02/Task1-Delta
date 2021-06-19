@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Button quit_button = (Button) v;
                 vibrator1.vibrate(75);
-                System.exit(0);
+                finishAffinity();
             }
         };
         btn_quit.setOnClickListener(btn_quitClickListener);

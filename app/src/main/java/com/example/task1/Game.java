@@ -48,7 +48,7 @@ public class Game {
     public void changeBackground(View changeBackground){
         if(flag) {
             changeBackground.setBackgroundColor(Color.parseColor("#dcfcf7"));
-           ; Handler handler=new Handler();
+            Handler handler=new Handler();
 
             handler.postDelayed(new Runnable() {
                 @Override
