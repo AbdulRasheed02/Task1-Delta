@@ -136,6 +136,7 @@ public class MainUi extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         finish();
+        timer.cancel();
     }
 
     @Override

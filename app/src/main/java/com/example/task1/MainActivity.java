@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
         };
         btn_quit.setOnClickListener(btn_quitClickListener);
     }
+    public void onBackPressed() {
+        finishAffinity();
+    }
 }
 
 
